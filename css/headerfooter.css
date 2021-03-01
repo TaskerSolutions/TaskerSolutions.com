@@ -1,0 +1,92 @@
+header {
+	width: 100vw;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+	top: -60px;
+}
+
+.header-background {
+	width: 100%;
+	background-color: #333333;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header-contact-btn {
+    min-width: 80px;
+	min-height: 70px;
+	display: inline-block;
+	position: relative;
+	padding-top: 20px;
+	transition: 0.3s;
+}
+
+.header-img-container {
+	width: 30px;
+	margin: auto;
+}
+
+/* Tooltip text */
+.header-contact-btn .tooltiptext {
+	visibility: hidden;
+	background-color: #524c4c;
+	color: #fff;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 5px;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 10;
+
+	min-width: 80px;
+	top: 80%;
+	left: 50%;
+	margin-left: -40px; /* Use half of the width, to center the tooltip */
+
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .header-contact-btn:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+  }
+
+  .header-contact-btn .tooltiptext::after {
+	content: " ";
+	position: absolute;
+	bottom: 100%;  /* At the top of the tooltip */
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent #524c4c transparent;
+  }
+  
+
+
+
+
+
+
+footer {
+	width: 100vw;
+    justify-content: space-around;
+	background-color: #333333;
+	z-index: 10;
+	position: relative;
+    font-size: 0.6em;
+    color: white;
+    padding:20px;
+    overflow: hidden;
+}
+
+.copyright {
+    font-size: 0.8em;
+}

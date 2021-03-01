@@ -1,0 +1,76 @@
+/* original values are designed for small mobile phones */
+
+/* --------------- 480px (bigger than portrait phone) --------------- */
+@media only screen and (min-width: 480px) and (orientation: portrait) {
+}
+
+/* --------------- 820px (bigger than landscape phone) --------------- */
+@media only screen and (min-width: 820px) and (orientation: landscape) {
+}
+
+/* --------------- 768px (Tablets) --------------- */
+@media only screen and (min-width: 768px) {
+	.content-container {
+		width: 80%;
+		padding: 0px 80px 0px 80px;
+	}
+
+	.title-block h1 {font-size: 2.8em;} /* original 2.5em */
+	.title-block h2 {font-size: 1.4em;} /* original 1.2em */
+	.heading {font-size: 1.2em;} /* original 1.1em */
+	.sub-heading {font-size: 1em;} /* original 0.9em */
+	p {font-size: 0.8em;} /* original 0.7em */
+}
+
+
+
+
+/* --------------- 992px (laptops) --------------- */
+@media only screen and (min-width: 992px) {
+    .col-33 {width: 33.33%;	float: left;}
+	.col-66 {width: 66.66%;	float: left;}
+	.col-center {width: 33.33%; float: center;}
+	.img-block {max-width: 90%;}
+
+	.title-block h1 {font-size: 3em;} /* original 2.5em */
+	.title-block h2 {font-size: 1.5em;} /* original 1.2em */
+	.heading {font-size: 1.3em;} /* original 1.1em */
+	.sub-heading {font-size: 1.05em;} /* original 0.9em */
+	p {font-size: 0.8em;} /* original 0.7em */
+	.button {font-size: 1em;} /* original 0.8em */
+
+	.img-block {padding: 0px 30px;}
+}
+
+@media only screen and (min-width: 992px)  and (orientation: landscape) {
+	.fixedbg {height: 70vh;}
+	.content-container {margin-top: 5vh;}
+}
+
+@media only screen and (min-width: 992px)  and (orientation: portrait) {
+	.fixedbg {height: 50vh;}
+	.content-container {margin-top: 0vh;}
+}
+
+
+
+
+
+/* --------------- 1312px (large desktops) --------------- */
+@media only screen and (min-width: 1312px) {
+	.title-block h1 {font-size: 3.2em;} /* original 2.5em */
+	.title-block h2 {font-size: 1.6em;} /* original 1.2em */
+	.heading {font-size: 1.4em;} /* original 1.1em */
+	.sub-heading {font-size: 1.1em;} /* original 0.9em */
+	p {font-size: 0.9em;} /* original 0.7em */
+}
+
+@media only screen and (min-width: 1312px) and (orientation: landscape) {
+	.fixedbg {height: 75vh;}
+	.content-container {margin-top: 5vh;}
+}
+
+@media only screen and (min-width: 1312px) and (orientation: portrait) {
+	.fixedbg {height: 50vh;}
+	.content-container {margin-top: 0vh;}
+}
