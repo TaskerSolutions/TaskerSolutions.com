@@ -1,7 +1,9 @@
 * {	margin: 0px; padding: 0px; box-sizing: border-box;} /* so all browsers display same */
 html {height: 100%;}
+.overflow-hidden {overflow: hidden;}
 canvas {display: block;	position: fixed; z-index: -5;}
 p {font-size: 0.7em;}
+img {width: 100%;  height: auto;}
 
 body {
 	background-color: black; /* Used if the background is unavailable */
@@ -80,6 +82,13 @@ main {
 	margin: 10px;
 	transition: transform .2s;
 }
+
+.solid-black-border {border: solid black 1px;}
+.bold {font-weight: bold;}
+.padding-20px {padding: 20px;}
+.padding-bottom-10px {padding-bottom: 10px;}
+.padding-bottom-30px {padding-bottom: 30px;}
+.margin-20px {margin: 20px;}
 
 .p-block {
 	margin-top: 10px;
