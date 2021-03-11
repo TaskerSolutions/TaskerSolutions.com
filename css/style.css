@@ -45,6 +45,8 @@ main {
 
 .content-container {
 	width: 85%;
+	padding: 15px;
+	padding-bottom: 20px;
 	max-width: 1200px;
 	margin: auto;
 	background-color: #FFFFFF;
@@ -78,12 +80,6 @@ main {
 }
 
 
-.img-block {
-	max-width: 55%;
-	margin: 10px;
-	transition: transform .2s;
-}
-
 .solid-black-border {border: solid black 1px;}
 .bold {font-weight: bold;}
 .padding-20px {padding: 20px;}
@@ -95,6 +91,7 @@ main {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	color: #333333;
+
 }
 
 .img-me {
@@ -118,13 +115,15 @@ main {
 }
 
 .content {
-	padding: 40px 30px 00px 30px;
+	padding: 40px 30px 30px 30px;
+	border-bottom: dotted grey 1px;
 }
 
 .port-img {
     padding: 0px;
     transition: transform .2s; /* Animation */
     margin: 0 auto;
+	max-width: 100%;
 }
 
 a {
